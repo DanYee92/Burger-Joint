@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color:red;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Averia Serif Libre', cursive;
+}
+body {
+    min-height: 100%;
+    text-align: center;
+    background-image:url("https://previews.123rf.com/images/seamartini/seamartini1606/seamartini160600097/58046870-burger-sandwiches-background-for-cafe-interior-or-menu-design-with-cartoon-seamless-pattern-of-fast-.jpg");
+    background-size: cover;
+}
+
+.btnColor {
+    color: black;
+}
+
+/*Header*/
+.container-top {
+    text-align: center;
+}
+.container-top h1 {
+    width: 100px;
+    margin: 50px auto;
+}
+/*Not Devoured*/
+.container-left {
+    border: 1px solid;
+    width: 33.33%;
+    height: 100%;
+    float: left;
+}
+.titleCenter  {
+    text-align: center;
+}
+/*Add a burger*/
+.container-middle {
+    border: 1px solid;
+    float: left;
+    width: 33.33%;
+    height: 100%;
+}
+
+#burgerInput {
+    color: black;
+}
+#ca {
+    color: black;
+}
+/*Devoured*/
+.container-right {
+    border: 1px solid;
+    float: right;
+    width: 33.33%;
+    height: 100%;
+}
+
+.section {
+    background: rgba(46, 32, 32, 0.71);
+    border: 1px solid white;
+}
+table {
+    margin: 0 auto;
+}
+
+.devoured {
+    width: 500px;
+    height: 500px;
+    float: left;
+}
+.notDevoured {
+    width: 500px;
+    height: 500px;
+    float: right;
+}
